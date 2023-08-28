@@ -1,6 +1,6 @@
 # 数字图像处理 冈萨雷斯 学习笔记
 
-> by CUC ToMakima
+> by CUC Herzt1er yanru1215@qq.com
 
 - 参考资料来源：https://github.com/LiuFG/digital_image_process
   - 数字图像处理(MATLAB版)(中译版)[冈萨雷斯]
