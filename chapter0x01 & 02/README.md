@@ -12,7 +12,7 @@
 - `figure`
   - ![Alt text](img/image-1.png)
 - `imshow(f,[])` 可拉伸图像动态范围
-  - ![img](img/ch1_1.jpg)
+  - ![img](img/ch2_1.jpg)
 ```matlab
 f = imread('Fig0203(a)(chest-xray).tif');
 % whos f;
@@ -137,14 +137,14 @@ plot(f(col,:)),title('(e)通过图像中部的水平扫描线')
 - 函数 `ndims`
   - 以任何一个维数来提取某个数组的分量是一个重要的特性
   - 即使是标量，我们也认为它有两个维数，这时的标量是大小为 1×1 的数组
-- ![Alt text](img/image-17.png)
-- ![Alt text](img/image-7.png)
-- ![Alt text](img/image-8.png)
+- ![Alt text](https://raw.githubusercontent.com/ToMakima/DIP_StudyNotes/main/chapter0x01%20%26%2002/img/image-17.png)
+- ![Alt text](https://raw.githubusercontent.com/ToMakima/DIP_StudyNotes/main/chapter0x01%20%26%2002/img/image-7.png)
+- ![Alt text](https://raw.githubusercontent.com/ToMakima/DIP_StudyNotes/main/chapter0x01%20%26%2002/img/image-8.png)
   - 对于向量和矩形数组，两个操作数必须有相同的维数，或者其中一个操作数是标量
 - 逻辑运算符既能作用于逻辑数据又能作用于数值数据
-- ![Alt text](img/image-9.png)
+- ![Alt text](https://raw.githubusercontent.com/ToMakima/DIP_StudyNotes/main/chapter0x01%20%26%2002/img/image-9.png)
 - MATLAB 存在很多在变量为true或false时，根据数值或条件返回逻辑1或0的函数
-- ![Alt text](img/image-10.png)
+- ![Alt text](https://raw.githubusercontent.com/ToMakima/DIP_StudyNotes/main/chapter0x01%20%26%2002/img/image-10.png)
 - 科学计数法使用字母e来表示10的幂次。虚数使用i或j作为后缀。
 - 浮点数的精度有限，一般到小数点后16位数字，范围有限，大约为 $10^{-308} \sim 10^{308}$
 - **流控制**
@@ -152,17 +152,17 @@ plot(f(col,:)),title('(e)通过图像中部的水平扫描线')
   - 函数 `error` 将终止程序的执行并且输出括号内的信息（引号不能省略）
   - `length(A)` 返回数组A的最长维的大小
   - 函数 `numel` 直接获得数组中的元素个数
-  - ![Alt text](img/image-11.png)
-  - ![Alt text](img/image-12.png)
-  - ![Alt text](img/image-13.png)
+  - ![Alt text](https://raw.githubusercontent.com/ToMakima/DIP_StudyNotes/main/chapter0x01%20%26%2002/img/image-11.png)
+  - ![Alt text](https://raw.githubusercontent.com/ToMakima/DIP_StudyNotes/main/chapter0x01%20%26%2002/img/image-12.png)
+  - ![Alt text](https://raw.githubusercontent.com/ToMakima/DIP_StudyNotes/main/chapter0x01%20%26%2002/img/image-13.png)
 - **代码优化**
   > MATLAB数组不能有0索引
   - **向量化循环**
     - 将 `for` 循环和 `while` 循环转换为等价的向量或矩阵运算
-    - ![Alt text](img/image-14.png)
-    - ![Alt text](img/image-15.png)
+    - ![Alt text](https://raw.githubusercontent.com/ToMakima/DIP_StudyNotes/main/chapter0x01%20%26%2002/img/image-14.png)
+    - ![Alt text](https://raw.githubusercontent.com/ToMakima/DIP_StudyNotes/main/chapter0x01%20%26%2002/img/image-15.png)
     - 以生成二维正弦图像函数为例测试
-    - ![img](img/ch2_6.jpg)
+    - ![img](https://raw.githubusercontent.com/ToMakima/DIP_StudyNotes/main/chapter0x01%20%26%2002/img/ch2_6.jpg)
 - `twodsin.m` 文件：*（仅展示部分代码）*
   - 加快代码执行时间的另一种方法是在程序中 **预分配数组** 的大小
 ```matlab
