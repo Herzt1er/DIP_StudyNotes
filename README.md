@@ -5,7 +5,8 @@
 - 参考资料来源：https://github.com/LiuFG/digital_image_process
   - 数字图像处理(MATLAB版)(中译版)[冈萨雷斯]
   - 数字图像处理matlab版图片素材
-- **代码编写过程** 借助了基于 `GPT-3.5` 模型的 `AIchatOS` 的帮助 
+- MATLAB R2018b
+  - **代码编写过程** 借助了基于 `GPT-3.5` 模型的 `AIchatOS` 的帮助
 
 ---
 
