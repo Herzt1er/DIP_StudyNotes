@@ -396,7 +396,7 @@ title('(f) 将原图像转换为unit8类图像')
   - ![Alt text](img/image-20.png)
 > 符号 @ 称为函数句柄，一种 MATLAB 数据类型，包含有引用函数用到的一些信息
 - `fp = padarray(f, [r c], method, direction)`
-- ![Alt text](img/image-21.png)
+- ![Alt text](https://raw.githubusercontent.com/Herzt1er/DIP_StudyNotes/main/chapter0x03/img/image-21.png)
 
 - **使用函数 confilt 实现非线性空间滤波**
   - 该非线性滤波在任何点处的响应都是中心在该点的邻域内的像素亮度值的 `几何平均`
